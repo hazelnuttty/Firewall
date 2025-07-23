@@ -1,0 +1,15 @@
+{
+  "name": "Simple Firewall",
+  "version": "1.0.0",
+  "description": "🛡️ Simple JS library to protect against DDoS attacks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["ddos", "protection", "firewall", "rate-limit", "security"],
+  "author": "Hazelnut",
+  "license": "MIT",
+  "dependencies": {
+    "express-rate-limit": "^7.0.0"
+  }
+}
