@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>⚠️ Human Verification Required</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    .verification-box {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 30px;
+    }
+    .verify-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚧 Human Verification Required</h1>
+  <p>To continue, please complete this quick verification to confirm you're not a bot.</p>
+  
+  <div class="verification-box">
+    <h3>Please verify you're human:</h3>
+    <p>Click the button below to verify</p>
+    <button class="verify-btn" onclick="verifyUser()">Verify Now</button>
+  </div>
+  
+  <script>
+    function verifyUser() {
+      alert("Verification complete! You can now proceed.");
+    }
+  </script>
+</body>
+</html>
